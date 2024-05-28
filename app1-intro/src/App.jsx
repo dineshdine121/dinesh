@@ -1,6 +1,7 @@
 import { CalanderAppointments } from "./Assignments/CalanderAppointments"
 import { ChatApplication } from "./Assignments/ChatApplication"
 import { EcommerceCart } from "./Assignments/EcommerceCart"
+import { EmployeeTimeTracker } from "./Assignments/EmployeeTimeTracker"
 import { GameCharacter } from "./Assignments/GameCharcter"
 import { LanguageLearningApp } from "./Assignments/LanguageLearningApp"
 import { ManagementSystem } from "./Assignments/ManagementSystem"
@@ -35,8 +36,10 @@ function App() {
     <TaskTracker/> */}
     {/* <h1>WeatherApp</h1>
     <WeatherApp/> */}
-    <h1>RecipeGenerator</h1>
-    <RecipeGenerator/>
+    {/* <h1>RecipeGenerator</h1>
+    <RecipeGenerator/> */}
+    <h2>EmployeeTimeTracker</h2>
+    <EmployeeTimeTracker/>
   </div>
 }
 export default App
