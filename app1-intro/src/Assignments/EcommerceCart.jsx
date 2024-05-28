@@ -30,9 +30,9 @@ export class EcommerceCart extends Component {
         return (
             <div>
 
-                <button onClick={this.additems}>additems</button>
-                <button onClick={this. removeitems}>removeitems</button>
-                <button onClick={this.levelup}>levelup</button>
+                <button onClick={this.additems}>additems</button><br /> <br />
+                <button onClick={this. removeitems}>removeitems</button><br /> <br />
+                <button onClick={this.levelup}>levelup</button><br /><br />
 
                 <ul>
                     {this.state.price.map((val) => <li>{val}</li>)}

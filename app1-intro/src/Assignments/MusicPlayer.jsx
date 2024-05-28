@@ -32,9 +32,9 @@ export class MusicPlayer extends Component {
         return (
             <div>
 
-                <button onClick={this.play}>play</button>
-                 <button onClick={this.pause}>pause</button>
-              <button onClick={this.skip}>skip</button>
+                <button onClick={this.play}>play</button> <br /> <br />
+                 <button onClick={this.pause}>pause</button><br /><br />
+              <button onClick={this.skip}>skip</button><br /><br />
 
               <ul>
                 {this.state.student.map((val)=> <li>{val}</li> )}

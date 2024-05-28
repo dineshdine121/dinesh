@@ -30,9 +30,9 @@ export class RecipeBook extends Component {
         return (
             <div>
 
-                <button onClick={this.addnewrecipes}>addnewrecipes</button>
-                <button onClick={this.removerecipes}>removerecipes</button>
-                <button onClick={this.searchforrecipes}>searchforrecipes</button>
+                <button onClick={this.addnewrecipes}>addnewrecipes</button><br /><br />
+                <button onClick={this.removerecipes}>removerecipes</button><br /><br />
+                <button onClick={this.searchforrecipes}>searchforrecipes</button><br /><br />
 
                 <ul>
                     {this.state.instructions.map((val) => <li>{val}</li>)}

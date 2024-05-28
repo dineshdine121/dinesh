@@ -30,9 +30,9 @@ export class ManagementSystem extends Component {
         return (
             <div>
 
-                <button onClick={this.addnewproducts}>addnewproducts</button>
-                <button onClick={this.updatequantities}>updatequantities</button>
-                <button onClick={this.removeproducts}>removeproducts</button>
+                <button onClick={this.addnewproducts}>addnewproducts</button> <br /> <br /> 
+                <button onClick={this.updatequantities}>updatequantities</button><br /> <br />
+                <button onClick={this.removeproducts}>removeproducts</button><br /> <br />
 
                 <ul>
                     {this.state.price.map((val) => <li>{val}</li>)}

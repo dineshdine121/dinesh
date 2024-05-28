@@ -31,9 +31,9 @@ export class ChatApplication extends Component {
         return (
             <div>
 
-                <button onClick={this.sendmessages}>sendmessages</button>
-                 <button onClick={this.deletemessages}>deletemessages</button>
-              <button onClick={this.searchformessages}>searchformessages</button>
+                <button onClick={this.sendmessages}>sendmessages</button> <br /> <br />
+                 <button onClick={this.deletemessages}>deletemessages</button><br /> <br />
+              <button onClick={this.searchformessages}>searchformessages</button><br /> <br />
 
               <ul>
                 {this.state.message.map((val)=> <li>{val}</li> )}

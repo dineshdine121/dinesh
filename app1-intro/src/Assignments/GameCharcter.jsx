@@ -30,9 +30,9 @@ export class GameCharacter extends Component {
         return (
             <div>
 
-                <button onClick={this.attack}>attack</button>
-                <button onClick={this.defend}>defend</button>
-                <button onClick={this.levelup}>levelup</button>
+                <button onClick={this.attack}>attack</button> <br /> <br />
+                <button onClick={this.defend}>defend</button><br /> <br />
+                <button onClick={this.levelup}>levelup</button><br /> <br />
 
                 <ul>
                     {this.state.healthpoints.map((val) => <li>{val}</li>)}

@@ -30,9 +30,9 @@ export class CalanderAppointments extends Component {
         return (
             <div>
 
-                <button onClick={this.addnewappointments}>addnewappointments</button>
-                <button onClick={this.updateappointments}>updateappointments</button>
-                <button onClick={this.deleteappointments}>deleteappointments</button>
+                <button onClick={this.addnewappointments}>addnewappointments</button> <br /> <br />
+                <button onClick={this.updateappointments}>updateappointments</button><br /> <br />
+                <button onClick={this.deleteappointments}>deleteappointments</button><br /> <br />
 
                 <ul>
                     {this.state.location.map((val) => <li>{val}</li>)}
