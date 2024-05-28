@@ -1,28 +1,28 @@
 import { Component } from "react";
 
-export class RecipeBook extends Component {
+export class EcommerceCart extends Component {
     state = {
-        quantityavailable: "1",
+        items: "jower",
         pesron: {
-          productname:"cycle",
+          quintity:"30",
         },
-       price: ["300","400"]
+       price: ["20"]
     };
 
 
-    addnewproducts = () => {
+    additems = () => {
         const newstate = { ...this.state };
-        newstate.price.push("bike");
+        newstate.price.push("2");
         this.setState(newstate);
     };
-    updatequantities= () => {
-        const newstate = { ...this.state };
-        newstate.price.splice(1, 0, "20");
-        this.setState(newstate);
-    };
-    removeproducts = () => {
+    removeitems= () => {
         const newstate = { ...this.state };
         newstate.price.pop();
+        this.setState(newstate);
+    };
+    levelup= () => {
+        const newstate = { ...this.state };
+        newstate.price.splice( 1, 0, "5");
         this.setState(newstate);
     };
 
@@ -30,15 +30,16 @@ export class RecipeBook extends Component {
         return (
             <div>
 
-                <button onClick={this.addnewproducts}>addnewproducts</button>
-                <button onClick={this.updatequantities}>updatequantities</button>
-                <button onClick={this.removeproducts}>removeproducts</button>
+                <button onClick={this.additems}>additems</button>
+                <button onClick={this. removeitems}>removeitems</button>
+                <button onClick={this.levelup}>levelup</button>
 
                 <ul>
                     {this.state.price.map((val) => <li>{val}</li>)}
                 </ul>
                 <ul>
-                    <p>{this.state.pesron.productname}</p>
+                    <p>{this.state.pesron.items}</p>
+                    <p>{this.state.pesron.quintity}</p>
                     <p>{this.state.pesron.price}</p>
                 </ul>
             </div>
