@@ -11,6 +11,7 @@ import { ManagementSystem } from "./Assignments/ManagementSystem"
 import { MovieDatabase } from "./Assignments/MovieDatabase"
 import { MusicBandManager } from "./Assignments/MusicBandManager"
 import { MusicPlayer } from "./Assignments/MusicPlayer"
+import { RealEstateListings } from "./Assignments/RealEstateListings"
 import { RecipeBook } from "./Assignments/RecipeBook"
 import { RecipeGenerator } from "./Assignments/RecipeGenerator"
 import { TaskTracker } from "./Assignments/TaskTracker"
@@ -50,8 +51,10 @@ function App() {
     <MusicBandManager/> */}
     {/* <h2>BlogPostManager</h2>
     <BlogPostManager/> */}
-    <h2>FitnessChallengeTracker</h2>
-    <FitnessChallengeTracker/>
+    {/* <h2>FitnessChallengeTracker</h2>
+    <FitnessChallengeTracker/> */}
+    <h2>RealEstateListings</h2>
+    <RealEstateListings/>
   </div>
 }
 export default App
