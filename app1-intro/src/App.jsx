@@ -1,11 +1,15 @@
+import { BlogPostManager } from "./Assignments/BlogPostManager"
 import { CalanderAppointments } from "./Assignments/CalanderAppointments"
 import { ChatApplication } from "./Assignments/ChatApplication"
 import { EcommerceCart } from "./Assignments/EcommerceCart"
 import { EmployeeTimeTracker } from "./Assignments/EmployeeTimeTracker"
+import { FitnessChallengeTracker } from "./Assignments/FitnessChallengeTracker"
+import { FlightBookingSystem } from "./Assignments/FlightBookingSystem"
 import { GameCharacter } from "./Assignments/GameCharcter"
 import { LanguageLearningApp } from "./Assignments/LanguageLearningApp"
 import { ManagementSystem } from "./Assignments/ManagementSystem"
 import { MovieDatabase } from "./Assignments/MovieDatabase"
+import { MusicBandManager } from "./Assignments/MusicBandManager"
 import { MusicPlayer } from "./Assignments/MusicPlayer"
 import { RecipeBook } from "./Assignments/RecipeBook"
 import { RecipeGenerator } from "./Assignments/RecipeGenerator"
@@ -38,8 +42,16 @@ function App() {
     <WeatherApp/> */}
     {/* <h1>RecipeGenerator</h1>
     <RecipeGenerator/> */}
-    <h2>EmployeeTimeTracker</h2>
-    <EmployeeTimeTracker/>
+    {/* <h2>EmployeeTimeTracker</h2>
+    <EmployeeTimeTracker/> */}
+    {/* <h1>FlightBookingSystem</h1>
+    <FlightBookingSystem/> */}
+    {/* <h2>MusicBandManager</h2>
+    <MusicBandManager/> */}
+    {/* <h2>BlogPostManager</h2>
+    <BlogPostManager/> */}
+    <h2>FitnessChallengeTracker</h2>
+    <FitnessChallengeTracker/>
   </div>
 }
 export default App
