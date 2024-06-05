@@ -53,8 +53,8 @@ function App() {
     <BlogPostManager/> */}
     {/* <h2>FitnessChallengeTracker</h2>
     <FitnessChallengeTracker/> */}
-    <h2>RealEstateListings</h2>
-    <RealEstateListings/>
+    {/* <h2>RealEstateListings</h2>
+    <RealEstateListings/> */}
   </div>
 }
 export default App
