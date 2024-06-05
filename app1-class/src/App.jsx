@@ -16,8 +16,8 @@ import { RecipeBook } from "./Assignments/RecipeBook"
 import { RecipeGenerator } from "./Assignments/RecipeGenerator"
 import { TaskTracker } from "./Assignments/TaskTracker"
 import { WeatherApp } from "./Assignments/WeatherApp"
-import { Person_Child } from "./Assignments/person_child"
-import { Person_Parent } from "./Assignments/person_parent"
+import { Person_Child } from "./Assignments/Person_Child"
+import { Person_Parent } from "./Assignments/Person_Parent"
 
 function App() {
   return <div>
