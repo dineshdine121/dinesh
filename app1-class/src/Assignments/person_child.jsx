@@ -1,6 +1,6 @@
 import { Component } from "react";
 
-export class person_child extends Component {
+export class Person_Child extends Component {
     render() {
         console.log(this.props);
         const { newPerson } = this.props;

@@ -16,6 +16,8 @@ import { RecipeBook } from "./Assignments/RecipeBook"
 import { RecipeGenerator } from "./Assignments/RecipeGenerator"
 import { TaskTracker } from "./Assignments/TaskTracker"
 import { WeatherApp } from "./Assignments/WeatherApp"
+import { Person_Child } from "./Assignments/person_child"
+import { Person_Parent } from "./Assignments/person_parent"
 
 function App() {
   return <div>
@@ -55,6 +57,8 @@ function App() {
     <FitnessChallengeTracker/> */}
     {/* <h2>RealEstateListings</h2>
     <RealEstateListings/> */}
+    <Person_Parent/>
+
   </div>
 }
 export default App

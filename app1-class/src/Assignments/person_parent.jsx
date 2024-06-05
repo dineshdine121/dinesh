@@ -1,6 +1,6 @@
 import { Component } from "react";
 
-export class person_parent extends Component {
+export class Person_Parent extends Component {
     state = {
         posttitle: "4",
         pesron: {
@@ -10,15 +10,17 @@ export class person_parent extends Component {
         tags: ["2"]
     };
 
-    render(){
-        return <div>
-        {this.state.pesron.map((pesron)=>{
-        return(
-          <person_child newPerson={pesron}/>
+    render() {
+        return (
+            <div>
+                {this.state.pesron.map((pesron,i) => {
+                    return (
+                        <Person_Child newPerson={pesron} key={i}/>
+                    );
+
+                })}
+            </div>
         );
-        
-    })}
-        </div>
     }
 
 }
