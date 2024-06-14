@@ -11,7 +11,7 @@ export class User1 extends Component {
         },
         allUsers: [],
         showUpdateBtn: false,
-        index:null
+        index: null
     };
     handleChange = (e) => {
         const inputName = e.target.name;
@@ -41,16 +41,16 @@ export class User1 extends Component {
         newState.allUsers.splice(i, 1);
         this.setState(newState);
     }
-    editUser = (obj,i) => {
+    editUser = (obj, i) => {
         const newState = { ...this.state };
         newState.userDetails = obj;
         newState.showUpdateBtn = true;
-        newState.index =i;
+        newState.index = i;
         this.setState(newState);
     }
-    updateUser=()=>{
+    updateUser = () => {
         const newState = { ...this.state };
-        newState.allUsers[this.state.index]=this.state.userDetails;
+        newState.allUsers[this.state.index] = this.state.userDetails;
         newState.showUpdateBtn = false;
         this.setState(newState);
         this.clearForm()
@@ -70,7 +70,6 @@ export class User1 extends Component {
                 <input type="text" name="datajoined" value={this.state.userDetails.datajoined} onChange={this.handleChange} /> <br />
                 <label htmlFor="">active</label>
                 <input type="text" name="active" value={this.state.userDetails.active} onChange={this.handleChange} /> <br />
-                <button type="button" onClick={this.addUser}>AddUser</button>
                 {this.state.showUpdateBtn ? (
                     <button type="button" onClick={this.updateUser}>UpdateUser</button>) :
                     (<button type="button" onClick={this.addUser}>AddUser</button>
