@@ -1,11 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Dine from './Assignments/Dine_users';
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
 
 function App() {
   return (
     <div className="App">
-     <Dine/>
+     <ClickCounter/>
+     <hr/>
+     <HoverCounter/>
     </div>
   );
 }
