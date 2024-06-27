@@ -12,4 +12,4 @@ import { Person_Parent } from "./Assignments/Person_Parent";
 
 {/* <GameCharcter_Parent/> */}
 
-<MusicPlayer_Parent/>
+{/* <MusicPlayer_Parent/> */}

@@ -57,8 +57,8 @@ function App() {
     <FitnessChallengeTracker/> */}
     {/* <h2>RealEstateListings</h2>
     <RealEstateListings/> */}
-    <Person_Parent/>
+    {/* <Person_Parent/> */}
 
   </div>
 }
-export default App
+export default App;
