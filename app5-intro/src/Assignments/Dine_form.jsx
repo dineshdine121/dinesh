@@ -1,6 +1,6 @@
 import React from "react";
 
-const Dineform = ({ handleChange, user, createUser, isEdit, updateUser }) => {
+const Dine_form = ({ handleChange, user, createUser, isEdit, updateUser }) => {
   return (
     <div>
       <form>
@@ -79,4 +79,4 @@ const Dineform = ({ handleChange, user, createUser, isEdit, updateUser }) => {
   );
 };
 
-export default Dineform;
+export default Dine_form;

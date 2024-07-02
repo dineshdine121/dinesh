@@ -2,8 +2,8 @@ import React from "react";
 import { useState } from "react";
 import { useEffect } from "react";
 import axios from 'axios'
-import Dineform from "./Dine_form";
-import Dinetable from "./Dine_table";
+import Dine_form from "./Dine_form";
+import Dine_table from "./Dine_table";
 const Dine = () => {
   const [user, setUser] = useState({
     name: "",
@@ -61,7 +61,7 @@ const Dine = () => {
     <div className="container">
       <div className="row">
         <div className="col-4">
-          <Dineform
+          <Dine_form
             handleChange={handleChange}
             user={user}
             createUser={createUser}
@@ -70,7 +70,7 @@ const Dine = () => {
           />
         </div>
         <div className="col-8">
-          <Dinetable
+          <Dine_table
             allUsers={allUsers}
             editUser={editUser}
             deleteUser={deleteUser} />

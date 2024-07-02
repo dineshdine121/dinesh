@@ -1,6 +1,6 @@
 import React from "react";
 
-const Dinetable = ({ allUsers,editUser,deleteUser }) => {
+const Dine_table = ({ allUsers,editUser,deleteUser }) => {
   return (
     <div>
       <table className="table table-striped table-hover">
@@ -36,4 +36,4 @@ const Dinetable = ({ allUsers,editUser,deleteUser }) => {
   );
 };
 
-export default Dinetable
+export default Dine_table;
