@@ -1,14 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import ClickCounter from './components/ClickCounter';
-import HoverCounter from './components/HoverCounter';
+import ClickCounter from './Render Method/ClickCounter';
+import HoverCounter from './Render Method/HoverCounter';
+import Main from './Render Method/Main';
 
 function App() {
   return (
     <div className="App">
-     <ClickCounter/>
      <hr/>
-     <HoverCounter/>
+     <Main/>
     </div>
   );
 }
