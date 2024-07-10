@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes,Route } from 'react-router-dom';
 import Users from './Components/Users';
 import Navbar from './Components/Navbar';
 import PageNotFound from './Components/PageNotFound';
+import Dashboard from './Dashboard/Dashboard';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path='/users' element ={<Users/>}/>
         <Route path='*' element ={<PageNotFound/>}/>
+        <Route path='/dashboard' element ={<Dashboard/>}/>
       </Routes>
       </Router>
       
