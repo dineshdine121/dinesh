@@ -1,16 +1,21 @@
-import react from 'react'
+import react, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { createuser, deleteuser } from './Store/UsersSlice';
 
 const App =()=>{
+  const [username,setUsername] = useState("")
    const users = useSelector((state)=> state.usersDetails.users);
   const dispatch = useDispatch()
    const handleCreateUser=()=>{
-    dispatch(createuser("dinesh"))
+    dispatch(createuser(username))
    }
 
    const handleDelete =(usr)=>{
        dispatch(deleteuser(usr))
+   }
+
+   const handleChange =(e)=>{
+      setUsername(e.target.value)
    }
    return(
     <div>
@@ -18,7 +23,7 @@ const App =()=>{
       <h2> Welcome To Redux Toolkit</h2>
       <form>
         <label> User Name:</label>
-        <input name='username' value={username} onChange={}></input>
+        <input name='username' value={username} onChange={handleChange}></input>
       </form>
     <button onClick={handleCreateUser}>CreateUser</button>
      <ul>
