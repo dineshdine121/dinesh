@@ -16,6 +16,10 @@ const App =()=>{
     <div>
 
       <h2> Welcome To Redux Toolkit</h2>
+      <form>
+        <label> User Name:</label>
+        <input name='username' value={username} onChange={}></input>
+      </form>
     <button onClick={handleCreateUser}>CreateUser</button>
      <ul>
       {users.map((usr,i)=> <li key={i}>{usr} <button onClick={()=>{handleDelete(usr)}}>Delete</button></li>)}
