@@ -21,7 +21,8 @@ export const RootReducer = ( state = Initialstate,action)=>{
             return {
                 ...state,
                 users: state.users.map((user, index) =>
-                    index === action.payload.index ? action.payload.username : user
+                    index === action.payload.index 
+                ? action.payload.username : user
                 )
             };
         

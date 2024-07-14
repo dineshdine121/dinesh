@@ -51,7 +51,7 @@ function App() {
     <form>
       <label> User Name : </label>
       <input type='text' name='username' value={username} onChange={handleChange}/>
-      {isEdit? <button onClick={handleUpdate} type=''> Update User</button> :
+      {isEdit? <button onClick={handleUpdate} type='button'> Update User</button> :
       <button onClick={handleSubmit} type='button'>Add User</button>
       }
       </form>
