@@ -1,0 +1,11 @@
+.StopWatch{
+    width: 90%;
+    max-width: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.8),(0,0,0,0.8)),
+    url(./background.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 40px 0;
+    color: aqua;
+}
